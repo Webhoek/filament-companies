@@ -2,7 +2,6 @@
 
 namespace Wallo\FilamentCompanies;
 
-use Filament\FilamentManager;
 use Filament\Facades\Filament;
 use Filament\FilamentManager;
 use Illuminate\Support\Facades\Route;
