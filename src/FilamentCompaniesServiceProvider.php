@@ -55,9 +55,11 @@ class FilamentCompaniesServiceProvider extends ServiceProvider
             }
         });
 
-       // $this->app->resolving('filament', function (FilamentManager $filament) {
-       //     $filament->registerPages($this->getPages());
-       // });
+        $this->app->resolving('filament', function (FilamentMultiContextManager $filament) {
+			Filament::forContext('filament', function () {
+				Filament::registerPages($this->getPages());
+			});
+        });
     }
 
     /**
