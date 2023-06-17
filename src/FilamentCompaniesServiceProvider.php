@@ -23,6 +23,7 @@ use Wallo\FilamentCompanies\Pages\Companies\CompanySettings;
 use Wallo\FilamentCompanies\Pages\Companies\CreateCompany;
 use Wallo\FilamentCompanies\Pages\User\APITokens;
 use Wallo\FilamentCompanies\Pages\User\Profile;
+use Artificertech\FilamentMultiContext\FilamentMultiContextManager;
 
 class FilamentCompaniesServiceProvider extends ServiceProvider
 {
