@@ -3,6 +3,8 @@
 namespace Wallo\FilamentCompanies;
 
 use Filament\FilamentManager;
+use Filament\Facades\Filament;
+use Filament\FilamentManager;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;
